@@ -49,5 +49,4 @@ type Sonic struct {
 	TemplateDir       string `mapstructure:"template_dir"`
 	ThemeDir          string
 	AdminResourcesDir string
-	AdminUrlPath      string `mapstructure:"admin_url_path"`
 }

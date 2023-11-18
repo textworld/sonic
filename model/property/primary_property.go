@@ -10,7 +10,6 @@ var (
 	IsInstalled = Property{
 		KeyValue:     "is_installed",
 		DefaultValue: false,
-		Kind:         reflect.Bool,
 	}
 	Theme = Property{
 		KeyValue:     "theme",
